@@ -54,10 +54,8 @@ def start_watcher():
 
 
 def create_icon():
-    img = Image.new("RGB", (64, 64), (40, 40, 40))
-    d = ImageDraw.Draw(img)
-    d.rectangle((18, 18, 46, 46), fill=(220, 220, 220))
-    return img
+    icon_path = Path(__file__).parent / "icons" / "tray.png"
+    return Image.open(icon_path)
 
 
 def sync_action(icon, item):
