@@ -1,0 +1,6 @@
+.vscode
+.venv
+icons
+build
+dist
+webapp-copy.spec
