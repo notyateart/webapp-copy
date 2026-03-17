@@ -1,10 +1,9 @@
 @echo off
 
-echo  Building Desktop Sync App
+echo  Building App
 
 REM activate venv if it exists
 if exist ".venv\Scripts\activate.bat" (
-    echo Activating virtual environment...
     call .venv\Scripts\activate.bat
 )
 
